@@ -88,7 +88,7 @@ class GoodsList {
 
   class cartItem {
     constructor(){
-      super(renderCart)
+      
     }
     changeSum() {
 
