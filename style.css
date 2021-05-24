@@ -23,12 +23,16 @@
   height: 35px;
   border: 0;
   border-radius: 30px;
+  cursor: pointer;
+}
+.cart-button:hover {
+  background-color: #e68d8d;
 }
 .goods-list {
   margin-top: 25px;
   margin-bottom: 25px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
   padding: 0 15px 0 15px;
 }
@@ -51,7 +55,7 @@
   justify-content: center;
   align-items: center;
 }
-.test-sum {
+.test-cart {
   height: 100px;
   background-color: #fd8e8e;
 }
